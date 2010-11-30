@@ -1,0 +1,9 @@
+net.juckel.osgijrubytest
+========================
+
+Simple test app for running JRuby under OSGi and test classloading issues.
+For now, you must place a JRuby jar within extensions/plugins, set the 
+target platform from the platform.target file, then run the
+net.juckel.osgijrubytest.id1 application.
+
+Yes, I should make this a simple Pax Runner test or some such...

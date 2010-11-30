@@ -1,0 +1,2 @@
+Place whichever JRuby bundle you want to test within this directory, then
+reset your target platform.
