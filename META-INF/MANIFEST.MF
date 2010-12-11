@@ -4,5 +4,8 @@ Bundle-Name: Jsr223test
 Bundle-SymbolicName: net.juckel.osgijrubytest;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
-Require-Bundle: org.jruby.jruby;bundle-version="1.6.0",
+Require-Bundle: org.jruby.jruby;bundle-version="1.5.0",
  org.eclipse.equinox.app
+Import-Package: org.osgi.framework;version="1.5.0",
+ org.osgi.util.tracker;version="1.4.0"
+Bundle-ActivationPolicy: lazy
